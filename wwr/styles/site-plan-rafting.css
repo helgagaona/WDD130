@@ -16,6 +16,7 @@ Fonts are separated by a & */
   --paragraph-font: Fredoka, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
+  /* Color palette link https://coolors.co/28437e-c9d0de-8494ba-71bf43-85da54 */
   --headline-color-on-white: #28437E;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #28437E; /* paragraph text on a white background */ 
