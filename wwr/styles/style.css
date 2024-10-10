@@ -8,7 +8,10 @@ body {
 header {
     background-color: #28437E;
 }
-.logo, .icon {
+.logo {
+    width: 5px;
+}
+.icon {
     width: 10px;
 }
 nav a {
