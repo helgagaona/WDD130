@@ -52,7 +52,7 @@ main section {
 }
 #background {
     height: 725px;
-    background-color: #f1f1f1;
+    background-color: red;
 }
 .msg {
     background-color: white;
