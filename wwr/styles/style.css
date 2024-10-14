@@ -33,7 +33,7 @@ header {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 200px;
-    font-family: "Fredoka";
+    font-family: "Fredoka, Helvetica, sans-serif";
 }
 .book:hover, .join:hover {
     background-color: #85DA54;
@@ -100,12 +100,12 @@ main section {
 .home-title {
     color: #28437E;
     font-size: 2em;
-    font-family: "Gowun Batang";
+    font-family: "Gowun Batang, Georgia, Times New Roman";
     margin-top: 10px;
 }
 h2 {
     color: #28437E;
-    font-family: "Gowun Batang";
+    font-family: "Gowun Batang, Georgia, Times New Roman";
     margin: 0;
 }
 h4 {
