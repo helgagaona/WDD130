@@ -1,3 +1,6 @@
+body {
+    box-sizing: border-box;
+}
 #content {
     text-align: center;
     background-color: gray;
@@ -8,6 +11,6 @@
 .circles {
     border-radius: 50%;
     width: 20%;
-    border: solid #5B5B5B 20px;
+    border: solid #5B5B5B 25px;
     margin: 50px;
 }
