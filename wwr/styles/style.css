@@ -95,7 +95,7 @@ main section {
     border-radius: 25px;
 }
 
-/* ------- TEXTS ------- */ 
+/* ------- TEXTS -------- */ 
 
 .home-title {
     color: #28437E;
@@ -118,7 +118,7 @@ footer {
     background-color: #8494BA;
     color: #28437E;
     margin-top: 200px;
-    padding: 25px;
+    padding: 24px;
     text-align: left;
 }
 footer a {
