@@ -1,0 +1,27 @@
+.qbox1 {
+    margin: 20px;
+    border: 2px solid #C08497;
+    padding: 20px;
+    width: 550px;
+    background-color: #F3EEC3;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.qbox2 {
+    margin: 20px;
+    border: 2px dotted #C08497;
+    padding: 20px;
+    width: 550px;
+    background-color: #F3EEC3;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.qbox3 {
+    margin: 20px;
+    border: 2px dashed #C08497;
+    padding: 20px;
+    width: 550px;
+    background-color: #F3EEC3;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
