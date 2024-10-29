@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&family=Gowun+Batang:wght@400;700&display=swap');
+
+
+#content {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+body {
+    background-color: #fcfbfb; 
+    font-family: "Fredoka", "Helvetica", "sans-serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #28437E;
+}
+
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+/* ------- BUTTONS -------*/
+
+.book, .join {
+    background-color: #71BF43;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 200px;
+    font-family: "Fredoka", "Helvetica", "sans-serif";
+}
+.book:hover, .join:hover {
+    background-color: #85DA54;
+    color: white;
+}
+/* ------- NAVIGATION ------- */
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #8494BA;
+    color: white;
+
+
+/* ------- IMAGES & OTHER ELEMENTS ------- */
+
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: #28437E;
+}
+.msg {
+    background-color: white;
+    line-height: 1.5em;
+    margin: 20px 0px;
+    padding: 25px;
+    color: #28437E;
+}
+.msg p {
+    color: #28437E;
+    font-size: 0.8em;
+}
+
+main section {
+    text-align: center;   
+    box-sizing: border-box;
+}
+#background {
+    height: 725px;
+    background-color: #f1f1f1;
+    margin: 20px 0px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+    border-radius: 25px;
+}
+.mountains {
+    margin: 20px 0px;
+    border-radius: 25px;
+}
+
+/* ------- TEXTS -------- */ 
+
+.home-title {
+    color: #28437E;
+    font-size: 2em;
+    font-family: "Gowun Batang", "Georgia", "Times New Roman";
+    margin-top: 10px;
+}
+h2 {
+    color: #28437E;
+    font-family: "Gowun Batang", "Georgia", "Times New Roman";
+    margin: 0;
+}
+h4 {
+    font-weight: normal;
+}
+
+/* -------HERE IS THE FOOTER ------- */ 
+
+footer {
+    background-color: #8494BA;
+    color: #28437E;
+    margin-top: 200px;
+    padding: 24px;
+    text-align: left;
+}
+footer a {
+    color: #28437E;
+    text-decoration: none;
+}
+footer a:hover {
+    color:white;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+

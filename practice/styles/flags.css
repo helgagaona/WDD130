@@ -1,0 +1,34 @@
+body {
+    background-color: #dbdbdb;
+}
+#chile {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
+#blue {
+    background-color: rgb(42, 42, 100);
+    height: 200px;
+    grid-column: 1/2;
+}
+#white {
+    background-color: white;
+    height: 200px;
+    grid-column: 2/4;
+}
+#red {
+    background-color: rgb(173, 52, 52);
+    height: 200px;
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+.star {
+    position: fixed;
+    width: 100px;  
+    aspect-ratio: 1;
+    background: #ffffff;
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%);
+    top:50px;
+    left:50px;
+}
