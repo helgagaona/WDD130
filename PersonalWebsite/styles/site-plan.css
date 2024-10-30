@@ -100,6 +100,7 @@ p {
 p.colored {
   background-color: var(--secondary-color);
   color: var(--accent1-color);
+  border-radius: 25px;
 }
 
 nav {
@@ -179,4 +180,15 @@ nav a:hover {
 }
 #logo {
   width:500px;
+}
+.wireframe, .wireframe2, .wireframe3 {
+  width:50%;
+}
+.wireframe2 {
+  margin: 0 auto;
+  height: 597px;
+  width: 50%;
+  background: url(http://127.0.0.1:5500/PersonalWebsite/images/2.png) no-repeat bottom;
+  background-size: 100% auto;
+  background-position: 10px 10px;
 }
