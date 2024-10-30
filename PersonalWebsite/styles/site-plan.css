@@ -196,7 +196,7 @@ nav a:hover {
   margin: 0 auto;
   height: 389px;
   width: 50%;
-  background: url(https://helgagaona.github.io/WDD130/PersonalWebsite/images/3.png) no-repeat bottom;
+  background: url(http://127.0.0.1:5500/PersonalWebsite/images/3.png) no-repeat bottom;
   background-size: 100% auto;
   background-position: 10px 10px;
 }
