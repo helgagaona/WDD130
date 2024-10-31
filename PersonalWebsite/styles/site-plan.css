@@ -86,15 +86,28 @@ p {
 
 .primary {
   background-color: var(--primary-color);
+  color:white;
+  font-family: "Montserrat";
+  border-radius: 25px;
+  border: 1px solid white;
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: black;
+  font-family: "Montserrat";
+  border-radius: 25px;
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: white;
+  font-family: "Montserrat";
+  border-radius: 25px;
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: white;
+  font-family: "Montserrat";
+  border-radius: 25px;
 }
 
 p.colored {
