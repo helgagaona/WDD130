@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: #2C272D;
+    color:white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0 auto;
+}
+ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #842E5D;
+    margin-top: -3px;
+}
+li {
+    padding: 20px;
+}
+li:hover {
+    background-color: #F87525;
+}
+
+h1 {
+    font-family: "Creepster";
+    font-size: 100px;
+    color: #F7A424;
+    letter-spacing: 5px;
+}
+img {
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+section {
+    margin: 20px;
+    background-color: #F87525;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+section:hover {
+    margin: 0 auto;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+h2 {
+    font-family: "Creepster";
+    font-size: 50px;
+    color: #2C272D;
+    letter-spacing: 5px;
+}
+footer {
+    margin-top: 20px;
+    height: 20px;
+    background-color: #83B14F;
+    padding: 20px;
+}
