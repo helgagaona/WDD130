@@ -21,9 +21,9 @@ header {
 
 .logo {
     width: 80px;
+    margin: 15px;
 }
 .logo_link {
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -109,6 +109,7 @@ main section {
 .home-grid {
     display:grid;
     grid-template-columns: repeat(10, 1fr);
+    height: auto;
 }
 
 .rivers-card, .camping-card, .rapids-card {
