@@ -1,5 +1,6 @@
 body {
     box-sizing: content-box;
+    margin: 0 auto;
 }
 .grid-container {
     display: grid;
@@ -14,6 +15,7 @@ body {
     width: 100%;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
+    background-color: white;
 }
 .right {
     background-color: lightgray;
