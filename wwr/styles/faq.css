@@ -1,0 +1,29 @@
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Gowun Batang";
+}
+.collapsible {
+    background-color: #71BF43;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #95d670;
+  }
+  
+  .content {
+    margin: 0 auto;
+    text-align: left;
+    width: 90%;
+    display: none;
+    overflow: hidden;
+    font-size: 20px;
+  }
