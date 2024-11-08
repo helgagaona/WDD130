@@ -41,7 +41,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 600px;
+  width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -174,4 +174,7 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.wireframes-image {
+  width: 600px;
 }
