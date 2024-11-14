@@ -2,22 +2,21 @@ body {
     background-color: black;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 25px 25px 25px 25px;
     
 }
 .device {
     background-color: white;
     max-width: 400px;
+    height: 90%;
     border-radius: 25px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .banner-image {
     width: 100%;
-    border-radius: 25px 25px 0px 0px;
 }
 .bar {
     background-color: white;
-    border-radius: 0px 0px 25px 25px;
 }
 .menu {
     display: grid;
@@ -27,7 +26,6 @@ body {
 .container1 {
     background-color: rgb(60, 60, 128);
     color: white;
-    border-radius: 0px 0px 0px 25px;
 }
 .container1 {
     background-color: rgb(60, 60, 128);
@@ -41,7 +39,6 @@ body {
 .container3 {
     background-color: rgb(60, 60, 128);
     color: white;
-    border-radius: 0px 0px 25px 0px;
 }
 h3 {
     color: blue;
