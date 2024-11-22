@@ -1,0 +1,100 @@
+/* styles/form.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f5f1; /* Soft beige background */
+    color: #5f4b32; /* Darker beige for text */
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: #ffffff; /* White form background */
+    border: 1px solid #ddd3c4; /* Light beige border */
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #7a6855;
+}
+
+input, select, button {
+    width: 95%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd3c4;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fbf9f6;
+    color: #5f4b32;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #c2a98a;
+    box-shadow: 0 0 8px rgba(194, 169, 138, 0.4);
+    outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-right: 15px;
+    color: #7a6855;
+}
+
+button {
+    background-color: #c2a98a; /* Soft beige button */
+    color: #ffffff; /* White text */
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #a5846e; /* Darker beige on hover */
+    box-shadow: 0 4px 8px rgba(165, 132, 110, 0.3);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(165, 132, 110, 0.5);
+}
+
+/* Align gender and checkbox inputs better */
+input[type="radio"], input[type="checkbox"] {
+    margin-bottom: 0;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+    margin-bottom: 15px;
+    color: #5f4b32;
+}
+
+/* Style for the dropdown */
+select {
+    cursor: pointer;
+}
+

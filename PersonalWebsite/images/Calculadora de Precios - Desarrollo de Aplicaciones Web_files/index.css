@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Apply global box-sizing border-box to all elements */
+* {
+    padding: 0;
+    margin: 0; /* Ensure no margin is applied anywhere */
+    box-sizing: border-box; /* Ensures padding and borders are included in width/height */
+    font-family: "Montserrat", Arial;
+}
+html, body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: rgb(44,39,45);
+background: linear-gradient(0deg, rgba(44,39,45,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+/* Navigation styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 15px 15px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.navbar a:hover {
+    background-color: #620D87;
+}
+
+.logo img {
+    width: 50%;
+    max-width: 150px;
+}
+
+/* Hero section */
+.hero {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#videoui {
+    width: 650px;
+    border-radius: 20px;
+    float: right;
+    margin-right: 40px;
+}
+
+#container {
+    text-align: center;
+    justify-content: center;
+    height: 550px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    padding-top: 50px;
+}
+
+.bottom {
+    margin-top: 50px;
+}
+
+.button1 {
+    width: 200px;
+    font-size: 1.2rem;
+    background: #620D87;
+    border-radius: 500px;
+    padding: 15px 30px;
+}
+
+.button1:hover {
+    background: #9522c7;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Features section */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 35px;
+}
+
+.feature-item {
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.feature-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+.icon {
+    margin-bottom: 20px;
+    width: 60px;
+}
+
+/* Hero2 section */
+.hero2 {
+    display: grid;
+    grid-template-rows: 350px 450px;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero2 h1 {
+    font-size: 3rem;
+}
+
+#contain {
+    grid-row: 2 / 3;
+    height: 300px;
+}
+
+.services {
+    height: 300px;
+    margin-top: 40px;
+}
+
+#computer {
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Footer */
+.footer {
+    margin-top: 35px;
+    padding: 5px;
+    background-color: #620D87;
+    color: white;
+    text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .navbar a {
+        padding: 15px;
+    }
+    #videoui {
+        width: 100%;
+        float: none;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        padding: 20px;
+    }
+    .button1 {
+        width: 160px;
+        font-size: 1.1rem;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .hero2 {
+        grid-template-rows: auto;
+    }
+
+    #contain {
+        display: none;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    #computer {
+        display: none;
+    }
+
+    #container {
+        height: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .button1 {
+        width: 140px;
+        font-size: 1rem;
+    }
+    .features {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .icon {
+        width: 50px;
+    }
+
+    .services {
+        height: 200px;
+    }
+
+    #contain img {
+        width: 90%;
+        height: auto;
+    }
+    .hero2 {
+        margin: 20px;
+    }
+    .hero2 h1 {
+        font-size: 30px;
+    }
+}
